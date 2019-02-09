@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Date Facts</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 bg-success text-white p-5 mx-auto text-center">
+                <h1>Date Facts</h1>
+                <form id="getDateFact">
+                    <input type="number" id="getMonth" placeholder="Enter a month" class="form-control mb-2">
+                    <input type="number" id="getDate" placeholder="Enter a date" class="form-control mb-2">
+                    <input type="submit" value="Submit" class="btn btn-primary">
+                </form>
+                <div class="card bg-success" id="fact">
+                    <div class="card-title text-white bg-success">
+                        Fact of this Date and Month
+                    </div>
+                    <div class="card-body bg-success">
+                        <p class="bg-success" id="getFactText"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
